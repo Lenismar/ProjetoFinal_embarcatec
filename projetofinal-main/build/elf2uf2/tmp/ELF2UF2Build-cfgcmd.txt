@@ -1,0 +1,1 @@
+cmd='/home/italo/.pico-sdk/cmake/v3.31.5/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/home/italo/.pico-sdk/ninja/v1.12.1/ninja;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

@@ -1,0 +1,3 @@
+/home/italo/Downloads/projetofinal-main/build/pioasm/CMakeFiles/pioasm.dir
+/home/italo/Downloads/projetofinal-main/build/pioasm/CMakeFiles/edit_cache.dir
+/home/italo/Downloads/projetofinal-main/build/pioasm/CMakeFiles/rebuild_cache.dir
