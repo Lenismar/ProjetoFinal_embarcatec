@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    color: #222;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 2.3em;
+    margin: 40px 0 30px 0;
+    font-weight: 700;
+    color: #1976d2;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px #b3c6e0;
+}
+.painel {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 18px #b3c6e0;
+    padding: 32px 38px 24px 38px;
+    min-width: 180px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+}
+.card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px #90a4c4;
+}
+.icon {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: #1976d2;
+}
+.valor {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s, background 0.3s;
+}
+.label {
+    font-size: 1.1em;
+    color: #888;
+}
+.alerta-ativo {
+    color: #d32f2f;
+    animation: alertaPulse 1s infinite alternate;
+}
+.alerta-inativo {
+    color: #1976d2;
+}
+@keyframes alertaPulse {
+    0% { background: #fff; }
+    100% { background: #ffeaea; }
+}
+@media (max-width: 700px) {
+    .painel { flex-direction: column; gap: 18px; }
+    .card { min-width: 0; width: 90vw; }
+}
+#grafico {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 18px #b3c6e0;
+    padding: 24px 18px 18px 18px;
+    margin-bottom: 30px;
+    width: 95vw;
+    max-width: 700px;
+}
